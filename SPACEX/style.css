@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+}
+body{
+    background-image: url(f723c9d16e35f887bd4bf072d9b2e3a4.jpeg);
+    background-size: cover;
+}
+.nav {
+    justify-content: space-between;
+    display: inline-block;
+  margin-top: -2rem;
+}
+#logo img{
+    width: 280px;
+}
+.navbar{
+    padding: 6px;
+    margin-left: 15rem;
+    margin-top: -8rem;
+}
+.navbar ul li{
+    display: inline-flex;
+}
+.navbar ul li a{
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+   margin: 1rem;
+   font-weight: 600;
+   font-size: 19px;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: whitesmoke;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+a:hover::after{
+     width: 100%;
+}
+#menu{
+    margin-top: -2.5rem;
+}
+#menu a  {
+   text-decoration: none;
+   margin: 1rem;
+   font-weight: 600;
+   font-size: 19px;
+   color: white;
+   margin-left: 62rem;
+}
+.mission{
+    color: white;
+    margin: 20px;
+}
+h3{
+    margin-top: 20rem;
+    font-weight: 300;
+    font-size: 25px;
+}
+h1{
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.mission a{
+    text-decoration: none;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all ease-out 0.2s;
+}
+.mission a:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+.star {
+    background-image: url(8d276c6e47dd9fc5fed3990e767f815b-removebg-preview.png);
+    margin-top: 10rem;
+    background-repeat: no-repeat;
+    min-width: 100vh;
+    background-position: center;
+    color: white;
+    min-height: 90vh;
+    background-color: black;
+}
+.text  {
+    padding: 5rem;
+}
+.star a{
+    text-decoration: none;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all ease-out 0.4s;
+}
+.star a:hover{
+    background-color: white;
+    color: black;
+}
+.third{
+    background-image: url(spacex-FA.webp);
+    background-size: cover;
+}
+.text h3,h1{
+    color: whitesmoke;
+}
+.text h1{
+    font-weight: 700;
+}
+.text h3{
+    font-weight: 500;
+}
+.text a{
+    color: white;
+    border: 2px solid black;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 19px;
+}
+.text a:hover{
+    background-color: #222;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+.footer{
+    background-color: black;
+    padding: 25px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+}
+
